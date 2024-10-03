@@ -359,13 +359,13 @@ const Restaurants = () => {
                 image: "https://renanvaladares.github.io/oxlink/inventarios.jpg",
                 title: "App de Inventarios",
                 href: "https://www.appsheet.com/start/f939d20a-7665-4d74-80e8-6faa34dd8f8f#view=Inventarios%20CWB"
-            }].map((restaurant) => {
-                    //,{
-               // desc: "BC",
-               // id: 3,
-               // image: "https://renanvaladares.github.io/oxlink/admeventos.jpg",
-               // title: "APP Administração de Eventos",
-              // href: "https://www.appsheet.com/start/fb66aaf6-8473-4f09-8945-e54d310cb20d#view=Eventos"
+         
+        } ,{
+                desc: "CWB",
+                id: 3,
+                image: "https://renanvaladares.github.io/oxlink/admeventos.jpg",
+                title: "APP DASHBOARD CURITIBA",
+               href: "https://www.appsheet.com/start/27c4ad91-7ea4-49bb-a12a-6a21fa321a72"
           //  }, {
              //   desc: "BC",
             //    id: 4,
@@ -379,7 +379,8 @@ const Restaurants = () => {
            //     title: "KDS de Eventos",
            //     href: "https://www.appsheet.com/start/311f3e45-7d5b-4a42-b395-8ddc4dc2ce62#view=Produ%C3%A7%C3%A3o%20p%2F%20Item"
            // }].map((restaurant) => {
-            const styles = {
+              }].map((restaurant) => {
+                    const styles = {
                 backgroundImage: `url(${restaurant.image})`
             };
             return (React.createElement("div", { key: restaurant.id, className: "restaurant-card background-image", style: styles },
