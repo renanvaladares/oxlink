@@ -290,42 +290,42 @@ const Tools = () => {
         return [{
                 icon: "fa-solid fa-air-conditioner",
                 id: 1,
-                image: "https://renanvaladares.github.io/oxlink/PedidoInsumo.jpg",
+                image: "https://renanvaladares.github.io/oxlink/img/PedidoInsumo.jpg",
                 label: "BC",
                 name: "Fazer Pedido",
                 href: "https://www.appsheet.com/start/29cbbdb0-5096-4d4d-a6b9-15581e9aefbc#view=Pedidos"
             }, {
                 icon: "fa-solid fa-vent-damper",
                 id: 2,
-                image: "https://renanvaladares.github.io/oxlink/DashPedidos.jpg",
+                image: "https://renanvaladares.github.io/oxlink/img/DashPedidos.jpg",
                 label: "Dashboard",
                 name: "Acompanhamento de Pedidos",
                 href: "https://www.appsheet.com/start/5ef61508-68a9-4577-9784-ad22795c1e4f#view=Dashboard"
             }, {
                 icon: "fa-solid fa-tv",
                 id: 3,
-                image: "https://renanvaladares.github.io/oxlink/Estoque.jpg",
+                image: "https://renanvaladares.github.io/oxlink/img/Estoque.jpg",
                 label: "CWB",
                 name: "Pedidos Estoque Secos",
                 href: "https://www.appsheet.com/start/5ef61508-68a9-4577-9784-ad22795c1e4f#view=Estoque%20OX"
             }, {    
                 icon: "fa-solid fa-battery-bolt",
                 id: 4,
-                image: "https://renanvaladares.github.io/oxlink/Acougue.jpg",
+                image: "https://renanvaladares.github.io/oxlink/img/Acougue.jpg",
                 label: "CWB",
                 name: "Pedidos Proteínas",
                 href: "https://www.appsheet.com/start/5ef61508-68a9-4577-9784-ad22795c1e4f#view=Proteinas"
             }, {
                 icon: "fa-solid fa-router",
                 id: 5,
-                image: "https://renanvaladares.github.io/oxlink/Producao.jpg",
+                image: "https://renanvaladares.github.io/oxlink/img/Producao.jpg",
                 label: "CWB",
                 name: "Pedidos Prep",
                 href: "https://www.appsheet.com/start/5ef61508-68a9-4577-9784-ad22795c1e4f#view=Prep"
             }, {
                 icon: "fa-solid fa-speaker",
                 id: 6,
-                image: "https://renanvaladares.github.io/oxlink/transporte.jpg",
+                image: "https://renanvaladares.github.io/oxlink/img/transporte.jpg",
                 label: "Transporte",
                 name: "Enviar Pedidos",
                 href: "https://www.appsheet.com/start/baebe2ff-8694-4fbf-8842-bf2e0b8d5748#view=Check%20de%20Carregamento"
@@ -350,32 +350,32 @@ const Restaurants = () => {
         return [{
                 desc: "BC",
                 id: 1,
-                image: "https://renanvaladares.github.io/oxlink/inventarios.jpg",
+                image: "https://renanvaladares.github.io/oxlink/img/inventarios.jpg",
                 title: "App de Inventarios",
                 href: "https://www.appsheet.com/start/44ea8c3e-b39f-42d1-a1a2-369e8fe0f4fa#view=Inventarios%20BC"
             }, {
                 desc: "CWB",
                 id: 2,
-                image: "https://renanvaladares.github.io/oxlink/inventarios.jpg",
+                image: "https://renanvaladares.github.io/oxlink/img/inventarios.jpg",
                 title: "App de Inventarios",
                 href: "https://www.appsheet.com/start/f939d20a-7665-4d74-80e8-6faa34dd8f8f#view=Inventarios%20CWB"
          
         } ,{
                 desc: "CWB",
                 id: 3,
-                image: "https://renanvaladares.github.io/oxlink/admeventos.jpg",
+                image: "https://renanvaladares.github.io/oxlink/img/admeventos.jpg",
                 title: "APP DASHBOARD CURITIBA",
                href: "https://www.appsheet.com/start/27c4ad91-7ea4-49bb-a12a-6a21fa321a72"
           //  }, {
              //   desc: "BC",
             //    id: 4,
-            //    image: "https://renanvaladares.github.io/oxlink/pedidoseventos.jpg",
+            //    image: "https://renanvaladares.github.io/oxlink/img/pedidoseventos.jpg",
             //    title: "Pedidos de Eventos",
             //    href: "https://www.appsheet.com/start/90e3bfc9-3e76-4193-99ec-166c65d5c6d9#view=Mesas%20Abertas"
            // },{
            //     desc: "BC",
            //     id: 4,
-           //     image: "https://renanvaladares.github.io/oxlink/KDSeventos.jpg",
+           //     image: "https://renanvaladares.github.io/oxlink/img/KDSeventos.jpg",
            //     title: "KDS de Eventos",
            //     href: "https://www.appsheet.com/start/311f3e45-7d5b-4a42-b395-8ddc4dc2ce62#view=Produ%C3%A7%C3%A3o%20p%2F%20Item"
            // }].map((restaurant) => {
@@ -399,14 +399,14 @@ const Movies = () => {
                 desc: "BC",
                 id: 1,
                 icon: "fa-solid fa-battery-full",
-                image: "https://renanvaladares.github.io/oxlink/dashvendasprodutos.jpg",
+                image: "https://renanvaladares.github.io/oxlink/img/dashvendasprodutos.jpg",
                 title: "Dashboard de Vendas",
                 href: "dashvendasbc.html"
             }, {
                 desc: "BC",
                 id: 2,
                 icon: "fa-solid fa-solar-panel",
-                image: "https://renanvaladares.github.io/oxlink/dashlogistica.jpg",
+                image: "https://renanvaladares.github.io/oxlink/img/dashlogistica.jpg",
                 title: "Dashboard de Logística",
                 href:"dashlogistica.html"
             }, {
@@ -493,7 +493,9 @@ const App = () => {
             React.createElement(Menu, null),
             React.createElement(Background, null),
             React.createElement("div", { id: "sign-in-button-wrapper" },
-                React.createElement(UserStatusButton, { icon: "fa-solid fa-arrow-right", id: "sign-in-button", userStatus: UserStatus.LoggingIn })),
+            React.createElement(UserStatusButton, { icon: "fa-solid fa-arrow-right", id: "sign-in-button", userStatus: UserStatus.LoggingIn })),
             React.createElement(Loading, null))));
 };
 ReactDOM.render(React.createElement(App, null), document.getElementById("root"));
+
+
