@@ -707,7 +707,7 @@ body span {
     transform: translate(40px, 0px);
   }
   #app #app-menu #app-menu-content-wrapper {
-    padding: 30px;
+    padding: 10px;
   }
   #app #app-menu #app-menu-content-wrapper #app-menu-content #restaurants-section .menu-section-content {
     flex-wrap: wrap;
