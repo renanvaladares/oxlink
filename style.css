@@ -164,7 +164,7 @@ body span {
   z-index: 1;
 }
 #app #app-background #app-background-image {
-  background-image: url("https://renanvaladares.github.io/oxlink/Background.jpg");
+  background-image: url("https://renanvaladares.github.io/oxlink/img/Background.jpg");
   height: 100%;
   transition: filter 250ms, transform 250ms;
   width: 100%;
