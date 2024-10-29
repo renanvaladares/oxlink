@@ -86,9 +86,9 @@ body span {
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-#app {
-  background-color: #1e1e1e;
-}
+
+
+
 #app.logged-out #app-info {
   margin-left: 40px;
   opacity: 1;
@@ -756,4 +756,65 @@ body span {
   #app #app-menu #app-menu-content-wrapper #app-menu-content #tools-section .menu-section-content .tool-card {
     width: 100%;
   }
+  #app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* estilo básico para mobile */
+    background-color: #1e1e1e;
+  }
+  
+  #app-pin-wrapper {
+    max-width: 320px; /* largura máxima para dispositivos móveis */
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+  }
+  
+  @media (min-width: 768px) {
+    #app-pin-wrapper {
+        max-width: 600px;
+    }
+  }
+}
+/* Mobile-first adjustments for style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+/* Larger screens */
+@media (min-width: 768px) {
+    .container {
+        max-width: 750px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+/* Other mobile-first adjustments */
+.navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar a {
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #333;
 }

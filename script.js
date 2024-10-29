@@ -493,7 +493,9 @@ const App = () => {
             React.createElement(Menu, null),
             React.createElement(Background, null),
             React.createElement("div", { id: "sign-in-button-wrapper" },
-                React.createElement(UserStatusButton, { icon: "fa-solid fa-arrow-right", id: "sign-in-button", userStatus: UserStatus.LoggingIn })),
+            React.createElement(UserStatusButton, { icon: "fa-solid fa-arrow-right", id: "sign-in-button", userStatus: UserStatus.LoggingIn })),
             React.createElement(Loading, null))));
 };
 ReactDOM.render(React.createElement(App, null), document.getElementById("root"));
+
+
